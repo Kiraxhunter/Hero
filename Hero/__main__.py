@@ -233,7 +233,7 @@ home_text_pm = f"""ʜᴇʟʟᴏ ,
 ᴍʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
 ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
-ᴀʟʟ  ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /help """
+ᴀʟʟ  ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: / """
 
 
 @app.on_message(filters.command("help") & filters.private)
