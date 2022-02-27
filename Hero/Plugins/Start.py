@@ -83,8 +83,8 @@ async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/609fd4309da62daa79d90.jpg",
         caption=f"""**
-📶 Hᴇʟʟᴏ, ɪ ᴀᴍ 𝘽𝙍𝙊𝙆𝙀𝙉 𝙈𝙍 𝙕 Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/iam_your_heart4)
-Click help Commands List /play /vplay OTHERS COMMANDS List type /help ...""",
+📶 ɪ ᴀᴍ 𝘽𝙍𝙊𝙆𝙀𝙉 𝙈𝙍 𝙕 Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/iam_your_heart4)
+Commands /play /vplay ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
