@@ -12,7 +12,7 @@ from Hero.Utilities.ping import get_readable_time
 __MODULE__ = "ᴘɪɴɢ"
 __HELP__ = """
 
-`/ping` - ᴄʜᴇᴄᴋ ɪғ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ.
+`/pig` - ᴄʜᴇᴄᴋ ɪғ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ.
 """
 
 
@@ -29,7 +29,7 @@ async def bot_sys_stats():
     return stats
 
 
-@app.on_message(filters.command(["ping", f"ping@{BOT_USERNAME}"]))
+@app.on_message(filters.command(["pig", f"ping@{BOT_USERNAME}"]))
 async def ping(_, message):
     start = datetime.now()
     response = await message.reply_photo(
