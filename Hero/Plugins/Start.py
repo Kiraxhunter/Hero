@@ -83,14 +83,14 @@ async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""**
-📶 Hᴇʟʟᴏ, ɪ ᴀᴍ Bʟᴀᴢᴇ Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Official AFK ✳️](https://t.me/OFFICIAL_AFK_XD)
+📶 Hᴇʟʟᴏ, ɪ ᴀᴍ BROKEN Mr z Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/)
 Click help Commands Button /help ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "🌀 Add Me To Your Group 🌀",
-                        url=f"https://t.me/HYPERMEN_RBOT?startgroup=true",
+                        url=f"https://t.me/broken_mr_z_bot?startgroup=true",
                     )
                 ],
                 [            
