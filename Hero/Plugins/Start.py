@@ -113,7 +113,7 @@ Click help Commands List /play /vplay OTHERS COMMANDS List type /help ...""",
         ),
     )  
 
-@app.on_message(filters.command(["help", "start"]) & filters.group)
+@app.on_message(filters.command(["elp", "start"]) & filters.group)
 async def useradd(_, message: Message):
     out = start_pannel()
     await asyncio.gather(
