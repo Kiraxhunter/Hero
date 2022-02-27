@@ -84,7 +84,7 @@ async def useradd(_, message: Message):
         photo=f"https://telegra.ph/file/609fd4309da62daa79d90.jpg",
         caption=f"""**
 📶 Hᴇʟʟᴏ, ɪ ᴀᴍ BROKEN Mr z Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/iam_your_heart4)
-Click help Commands List /play /vplay /pause /resume /skip /stop /end ...""",
+Click help Commands List /play /vplay /pause /resume /skip /stop /end OTHERS COMMANDS List type /help ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
