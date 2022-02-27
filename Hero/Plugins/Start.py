@@ -83,7 +83,7 @@ async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
         caption=f"""**
-📶 Hᴇʟʟᴏ, ɪ ᴀᴍ BROKEN Mr z Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/)
+📶 Hᴇʟʟᴏ, ɪ ᴀᴍ BROKEN Mr z Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/iam_your_heart4)
 Click help Commands Button /help ...""",
    reply_markup=InlineKeyboardMarkup(
             [
@@ -98,22 +98,22 @@ Click help Commands Button /help ...""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "🚑 Support", url=f"https://t.me/BLAZE_Support"
+                        "🚑 Owner", url=f"https://t.me/iam_your_heart4"
                     ),
                     InlineKeyboardButton(
-                        "Updates 📢", url=f"https://t.me/THE_BLAZE_NETWORK"
+                        "Contact 📢", url=f"https://t.me/iam_your_heart4"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "✳️ ChatZone ✳️", url=f"https://t.me/UNIQUE_SOCIETY")
+                        "✳️ Helpline ✳️", url=f"https://t.me/iam_your_hear4")
                 ]
                 
            ]
         ),
     )  
 
-@app.on_message(filters.command(["elp", "start"]) & filters.group)
+@app.on_message(filters.command(["help", "start"]) & filters.group)
 async def useradd(_, message: Message):
     out = start_pannel()
     await asyncio.gather(
