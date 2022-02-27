@@ -81,10 +81,10 @@ async def welcome(_, message: Message):
 @app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
+        photo=f"https://telegra.ph/file/609fd4309da62daa79d90.jpg",
         caption=f"""**
 📶 Hᴇʟʟᴏ, ɪ ᴀᴍ BROKEN Mr z Sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ Mᴜsɪᴄ Pʟᴀʏᴇʀ Pᴏᴡᴇʀᴇᴅ Bʏ [✳️ Broken Mr z ✳️](https://t.me/iam_your_heart4)
-Click help Commands Button /help ...""",
+Click help Commands List /play /vplay /pause /resume /skip /stop /end ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -106,7 +106,7 @@ Click help Commands Button /help ...""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "✳️ Helpline ✳️", url=f"https://t.me/iam_your_hear4")
+                        "✳️ Helpline ✳️", url=f"https://t.me/iam_your_heart4")
                 ]
                 
            ]
