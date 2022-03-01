@@ -108,21 +108,21 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("sts") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e908f845cd0fa7f9ce275.jpg",
+        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʙʀᴏᴋᴇɴ ᴍʀ ᴢ ᴍᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【𝐈𝐑𝐔𝐘𝐀𝐌】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴋɪɴɢ    : [ʙʀᴏᴋᴇɴ ᴍʀ ᴢ](https://t.me/iam_your_heart4)
+┣★ 𝐊𝐈𝐍𝐆𝐗𝐎𝐏 : [𝙆 𝙄 𝙍 𝘼 𝙓 𝙊 𝙋](https://t.me/kiraxophunter)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 Type /help for Others Commands ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/iam_your_heart4) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/kiraxophunter) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/iam_your_heart4")
+                        "➕ ❰ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/cfc_bots")
                 ]
                 
            ]
@@ -133,29 +133,29 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["alive", ""]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e908f845cd0fa7f9ce275.jpg",
+        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/iam_your_heart4")
+                        "💥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 💥", url=f"https://t.me/cfc_bot_support")
                 ]
             ]
         ),
     )
 
 
-@app.on_message(filters.command(["", "", "", "", ""]) & filters.group & ~filters.edited)
+@app.on_message(filters.command(["sgsvvsbshhw"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e908f845cd0fa7f9ce275.jpg",
+        photo=f"hhttps://telegra.ph/file/960444f086cd118ef72f7.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://iam_your_heart4")
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/kiraxophunter")
                 ]
             ]
         ),
